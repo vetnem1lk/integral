@@ -110,12 +110,9 @@ namespace integral
         {            
             txtOut.Text = string.Empty;
 
-            for (double i = dotA; i <= dotB; i++)
-            {
-                y = (Math.Pow(i, 3)) / 3;
-                y = myRound(y, precision);
-                txtOut.Text += $"при x = {i}, y = {y}" + Environment.NewLine;
-            }
+            y = ((Math.Pow(dotB, 3)) / 3) - ((Math.Pow(dotA, 3)) / 3);
+            y = myRound(y, precision);
+            txtOut.Text = Convert.ToString(y); 
 
         }
     }

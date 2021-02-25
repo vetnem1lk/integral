@@ -39,13 +39,14 @@
             this.label5 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(190, 9);
+            this.label1.Location = new System.Drawing.Point(157, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(131, 25);
             this.label1.TabIndex = 0;
@@ -112,19 +113,18 @@
             // 
             this.txtOut.AcceptsReturn = true;
             this.txtOut.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.txtOut.Location = new System.Drawing.Point(248, 87);
-            this.txtOut.Multiline = true;
+            this.txtOut.Location = new System.Drawing.Point(257, 116);
             this.txtOut.Name = "txtOut";
             this.txtOut.ReadOnly = true;
             this.txtOut.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtOut.Size = new System.Drawing.Size(295, 185);
+            this.txtOut.Size = new System.Drawing.Size(198, 26);
             this.txtOut.TabIndex = 7;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label5.Location = new System.Drawing.Point(323, 59);
+            this.label5.Location = new System.Drawing.Point(12, 53);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(164, 25);
             this.label5.TabIndex = 8;
@@ -149,11 +149,22 @@
             this.label6.TabIndex = 10;
             this.label6.Text = "Точек после запятой в отвте:";
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label7.Location = new System.Drawing.Point(252, 88);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(184, 25);
+            this.label7.TabIndex = 11;
+            this.label7.Text = "Интеграл равен";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(559, 287);
+            this.ClientSize = new System.Drawing.Size(469, 280);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label5);
@@ -185,6 +196,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
     }
 }
 
